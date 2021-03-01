@@ -22,6 +22,6 @@ While this may seem like a basic example, in fact the approach may have big impl
 
 Even for systems that are mathematically well understood, such as in meteorology, where numerical models are the mainstay, there is great interest in the potential of machine learning to improve the accuracy and utility of forecasts (for example see the recent [Machine learning for weather and climate modelling](https://royalsocietypublishing.org/toc/rsta/2021/379/2194) theme issue of Philosophical Transactions of the Royal Society A, in which I have two contributions).
 
-For environmental disciplines that tend to work via empirical observation rather than physical modelling, for example geological and ecological mapping, machine learning brings uncontested utility for its ability to discover previously uncharacterised relationships and apply these to provide better information about the environment (for example see manuscript [a machine learning appraoch to geochemical mapping](https://doi.org/10.1016/j.gexplo.2016.05.003))
+For environmental disciplines that tend to work via empirical observation rather than physical modelling, for example geological and ecological mapping, machine learning brings uncontested utility for its ability to discover previously uncharacterised relationships and apply these to provide better information about the environment (for example see manuscript [a machine learning approach to geochemical mapping](https://doi.org/10.1016/j.gexplo.2016.05.003))
 
 For more information contact Charlie Kirkwood at c.kirkwood@exeter.ac.uk
