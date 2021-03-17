@@ -4,14 +4,21 @@ Thanks for following the QR link - some things are better viewed on screen than 
 
 ###  7 days of deep-learned surface air temperature
 
-The below animation shows the predictive mean surface air temperature by hour for one week:
+The below animation shows the predictive mean surface air temperature for one week:
 
 <video width="540" height="720" autoplay loop muted playsinline>
   <source type="video/mp4" src="https://github.com/charliekirkwood/AI_UK_poster/blob/main/SRFC_AIR_TMPR_696k_gauss_uniform_network_86_animation_WOW_robust_v2_2020_11_06-2020_11_12.mp4?raw=true">
 </video>
 
 \
-Our deep model learns detailed spatio-temporal fields by combining global location and time information from weather station observations (station sites below left) with relevant local terrain context information learned through observation-centred convolution of the digital elevation model (below right).
+However, the predictive mean carries no information about uncertainty. One way to convey this uncertainty is to instead visualise independent samples from the predictive distribution, so that predictions in less certain areas (and at less certain times) appear more noisy:
+
+<video width="540" height="720" autoplay loop muted playsinline>
+  <source type="video/mp4" src="https://github.com/charliekirkwood/AI_UK_poster/blob/main/SRFC_AIR_TMPR_696k_gauss_uniform_network_87_animation_WOW_robust_honest_2020_11_06-2020_11_12.mp4?raw=true">
+</video>
+
+\
+As you have seen in the poster, the calibration of our predictive distribution is very good (observations fall within the 95% prediction interval 94.5% of the time). Our deep model learns detailed and honest spatio-temporal fields by combining global location and time information from weather station observations (station sites below left) with relevant local terrain context information learned through observation-centred convolution of the digital elevation model (below right).
 
 <p float="left">
   <img src="https://raw.githubusercontent.com/charliekirkwood/AI_UK_poster/main/UKweatherstations.png" width="270" />
