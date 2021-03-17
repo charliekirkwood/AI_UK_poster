@@ -25,7 +25,7 @@ As you have seen in the poster, the calibration of our predictive distribution i
   <img src="https://raw.githubusercontent.com/charliekirkwood/AI_UK_poster/main/UKelevation.png" width="270" />
 </p>
 
-While this may seem like a basic example, in fact the approach may have big implications for how we model environmental variables in the future. This is because Bayesian deep learning allows us to bring the benefits of well-calibrated statistical modelling to systems in which the processes at work are (in theory) arbitrarily complex, all in a framework that is workable for extremely large datasets.
+While this may seem like a basic example, in fact the approach may have big implications for how we model environmental variables in the future. This is because Bayesian deep learning allows us to bring the benefits of well-calibrated statistical modelling to systems in which the processes at work are (in theory) arbitrarily complex, all in a framework that is scalable to extremely large datasets.
 
 Even for systems that are mathematically well understood, such as in meteorology, where numerical models are the mainstay, there is great interest in the potential of machine learning to improve the accuracy and utility of forecasts (for example see the recent [Machine learning for weather and climate modelling](https://royalsocietypublishing.org/toc/rsta/2021/379/2194) theme issue of Philosophical Transactions of the Royal Society A, in which I have two contributions).
 
